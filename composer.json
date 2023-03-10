@@ -10,7 +10,7 @@
     "require": {
         "php": "^8.0",
         "doctrine/orm": "^2.13",
-        "doctrine/dbal": "^2.13",
+        "doctrine/dbal": "^3.6",
         "ramsey/uuid-doctrine": "^2.0",
         "doctrine/doctrine-migrations-bundle": "^3.2"
     },
