@@ -22,7 +22,7 @@
             },
             "require": {
                 "doctrine/lexer": "1.*",
-                "php": "^7.1"
+                "php": "^8.0"
             },
             "require-dev": {
                 "doctrine/cache": "1.*",

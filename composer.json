@@ -3,12 +3,12 @@
     "description": "Easily migrate from auto incremented id to uuid",
     "type": "library",
     "autoload": {
-      "psr-4": {
-        "Habbim\\IdToUuid\\": "src/"
-      }
+        "psr-4": {
+            "Habbim\\IdToUuid\\": "src/"
+        }
     },
     "require": {
-        "php": "^7.1",
+        "php": "^8.0",
         "doctrine/orm": "^2.6",
         "doctrine/dbal": "^2.9",
         "ramsey/uuid-doctrine": "^1.5",
