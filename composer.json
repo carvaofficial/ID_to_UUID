@@ -9,10 +9,10 @@
     },
     "require": {
         "php": "^8.0",
-        "doctrine/orm": "^2.13",
-        "doctrine/dbal": "^3.6",
+        "doctrine/orm": "^2.6",
+        "doctrine/dbal": "^2.9",
         "ramsey/uuid-doctrine": "1.6.*",
-        "doctrine/doctrine-migrations-bundle": "^3.2"
+        "doctrine/doctrine-migrations-bundle": "^2.0"
     },
     "license": "MIT",
     "authors": [
