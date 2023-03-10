@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+  php:
+    build:
+      context: .
+      dockerfile: .docker/php/Dockerfile
+      args:
+        TIMEZONE: ${TIMEZONE}
+    volumes:
+      - ../id-to-uuid/:/var/www/id-to-uuid/
+    networks:
+      - composer
+
+networks:
+  composer:
